@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/18388af2ea.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Log in page-->
+    <div class="container mt-5 ">
+        <div class="row justify-content-center align-items-center">
+            <div class="card px-0" style="width: 25rem;">
+                <div style="height: 10rem;" class="w-100 d-flex align-items-center justify-content-center bg-danger">
+                    <div class="">
+                        <h5 class="fs-4 text-center fw-medium text-light">Log in</h5>
+                        <ul class="d-flex gap-4 justify-content-center mt-4 fs-4 list-unstyled">
+                            <li><a class="text-light" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a class="text-light" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a class="text-light" href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-body mt-4">
+                    <div class="mb-3">
+                        <input type="email" class="border-0 border-bottom form-control" id="email" placeholder="Email">
+                    </div>
+                    <div>
+                        <input type="password" class=" border-0 border-bottom form-control" id="password"
+                            placeholder="password">
+                    </div>
+                    <div class="text-end mb-5">
+                        <a class="text-decoration-none" href="#">
+                            <p class="text-secondary">forget <span class="fw-medium text-dark">Password?</span></p>
+                        </a>
+                    </div>
+                    <div class="card-text pb-3">
+                        <div class="d-flex gap-5 align-items-baseline">
+                            <button class="btn fw-medium rounded-pill px-3 btn-dark" style="font-size: 13px;">LOG
+                                IN</button>
+                            <a href="#" class="text-secondary text-decoration-none ">Don't have an account? <span
+                                    class=" text-dark fw-medium fs-6">Sign up</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Sign up page-->
+    <div class="container my-5 d-flex justify-content-center">
+        <div class="row">
+            <div class="card px-0" style="width: 22rem;">
+                <div class="card-body">
+                    <h5 class="card-title text-center mb-5">Sign up</h5>
+                    <div class="mb-3">
+                        <input type="email" class="border-0 border-bottom form-control" id="email" placeholder="Email">
+                    </div>
+                    <div class="mb-3">
+                        <input type="password" class=" border-0 border-bottom form-control" id="password"
+                            placeholder="password">
+                    </div>
+                    <div class="my-4">
+                        <input class="form-check-input me-1 " type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label text-secondary " style="font-size: 13px;" for="flexCheckDefault">
+                            Accept the <a href="#">Teams and conditions</a>
+                        </label>
+                    </div>
+                    <div class="d-flex  align-items-baseline justify-content-between mt-3">
+                        <button class="btn btn-danger fw-medium" style="font-size: 14px;">Sign Up</button>
+                        <div class="d-flex gap-1">
+                            <p class="text-dark">Have an account?</p>
+                            <a href="#" class="fs-6 text-decoration-none">Sign in</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="height: 5rem;" class="w-100 d-flex align-items-center justify-content-center bg-danger">
+                    <div class="">
+                        <ul class="d-flex gap-4 justify-content-center mt-4 fs-5 list-unstyled">
+                            <li><a class="text-light" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a class="text-light" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a class="text-light" href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--sign in page-->
+    <div class="container d-flex px-0 mb-5 justify-content-center">
+        <div class="row px-0">
+            <div class="card px-4 border border-primary" style="width: 18rem;">
+                <form class="pb-5">
+                    <div class="text-center mt-3">
+                        <p class="fw-medium fs-5">Sign in</p>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" placeholder="Your email" class="form-control border-0 border-bottom">
+                    </div>
+                    <div>
+                        <input type="password" class="form-control border-0 border-bottom" placeholder="Your Password">
+                    </div>
+                    <div class="text-end mb-4"><a style="font-size: 13px;" href="#">forget password?</a></div>
+                    <div class="text-center">
+                        <button type="button" class="btn btn-primary w-100 fw-medium rounded-pill" style="font-size: 14px;">SIGN IN</button>
+                        <p class="mt-2 fw-medium">or sign in with</p>
+                    </div>
+                    <div class="d-flex gap-3 justify-content-center">
+                        <a href="#" class="py-1 px-4 rounded-pill shadow-sm ">
+                            <i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="py-1 px-4 rounded-pill shadow-sm ">
+                            <i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="py-1 px-4 rounded-pill shadow-sm ">
+                            <i class="fa-brands fa-google-plus-g"></i></a></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--BS JS-->
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
